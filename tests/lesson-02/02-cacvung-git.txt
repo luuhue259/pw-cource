@@ -1,0 +1,31 @@
+a. Tạo 3 file: file1, file2, file3
+Lúc này chưa chạy git init, nên thư mục chưa phải repo Git → không có khái niệm 3 vùng.
+
+
+b. Chạy lệnh: git init
+Working Directory: file1, file2, file3 (untracked) 
+Staging Area	: rỗng
+Repository: rỗng
+
+
+c. Chạy lệnh: git commit -m "init project"
+Thất bại, staging area đang rống, không có gì để commit, state giống với step b
+
+d. Chạy lệnh: git add file1: file1 được đưa từ Working Directory vào Staging Area. file2, file3 vẫn untracked.
+
+Working Directory:  file2, file3 (untracked) 	
+Staging Area	: file1
+Repository: rỗng
+
+
+e. Chạy lệnh: git commit -m "add file1": file1 (đã ở Staging) được commit vào Repository
+
+Working Directory:  file2, file3 (untracked) 
+Staging Area	: rỗng
+Repository: file1
+
+f. Chạy lệnh: git commit -m "add file":  chạy thất bại vì Staging Area  đang rỗng
+
+Working Directory:  file2, file3 (untracked) 
+Staging Area	: rỗng
+Repository: file1
