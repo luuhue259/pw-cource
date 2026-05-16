@@ -1,5 +1,5 @@
 const number = 12;
-let name = 'Hue';
+let name = "Hue";
 let isEven = false;
 
 console.log(typeof number);
