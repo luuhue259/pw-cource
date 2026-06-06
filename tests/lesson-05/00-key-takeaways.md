@@ -3,11 +3,11 @@
 - Cấu trúc của DOM : 1 website, Máy tính sẽ “nhìn” ở dưới dạng “cây có cấu trúc” Mở cây này bằng cách bấm phím F12 (hoặc chuột phải vào vùng trống, chọn “Inspect”); sau đó chọn tab “Element”
 - Các loại thẻ HTML thường gặp: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
 - Các thẻ tiêu chuẩn
-1. Thẻ cấu trúc khung trang: <html>, <head>, <body>
-2. Thẻ Bố Cục & Ngữ nghĩa: <div>, <header>, <footer>, <nav>, <section>
-3. Thẻ Nội Dung: <h1> đến <h6>, <<paragraph>, <ul>, <li>, <ol>
-4. Thẻ Tương tác media: <a>, <img>
-5. Thẻ form (quan trọng với testing): <form>, <input>, <button>, <select>, <textarea>
+1. Thẻ cấu trúc khung trang: 
+2. Thẻ Bố Cục & Ngữ nghĩa: 
+3. Thẻ Nội Dung: 
+4. Thẻ Tương tác media: 
+5. Thẻ form (quan trọng với testing):
 
 ## SELECTOR 
 
@@ -24,7 +24,6 @@
 - Thứ tự ưu tiên: *Playwright selector > CSS selector > XPath*
 - Vẫn cần học cả 3 để "cân" được mọi dự án — có dự án "thích" CSS, có dự án "thích" XPath, phải tuân theo.
 
----
 
 ### XPath chi tiết
 
