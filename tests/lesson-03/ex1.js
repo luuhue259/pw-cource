@@ -1,4 +1,4 @@
-const a = -1;
+const a = 0;
 let checkNumber = 'Giá trị bạn nhập là số dương';
 
 if (a < 0) {
