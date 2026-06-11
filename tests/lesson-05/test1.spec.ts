@@ -41,13 +41,18 @@ test('Bài 1', async ({ page }) => {
         await page.locator("//input[@id='dob']").fill("1998-09-25");
     });
 
-    await test.step('upload profile', async () => {
-        await page.locator("//input[@id='profile']").setInputFiles("C:/Users/hueluu/OneDrive - Fortna Inc/Pictures/Screenshots/Screenshot 2026-04-20 220244.png");
-    });
+    // await test.step('upload profile', async () => {
+    //     await page.locator("//input[@id='profile']").setInputFiles("C:/Users/hueluu/OneDrive - Fortna Inc/Pictures/Screenshots/Screenshot 2026-04-20 220244.png");
+    // });
 
 
     await test.step('input Biography', async () => {
         await page.locator("//textarea[@id='bio']").fill("Jane Smith is a software engineer with over 10 years of experience in web application development. She specializes in cloud technologies and distributed systems. Jane has led engineering teams at several technology companies and is passionate about mentoring junior developers. She holds a Bachelor's degree in Computer Science from the University of California, Berkeley.");
+    });
+
+    await test.step('register', async () => {
+        await page.locator ("//button[@type='submit']").click();
+
     });
 
 
